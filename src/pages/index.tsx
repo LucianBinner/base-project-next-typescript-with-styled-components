@@ -1,7 +1,10 @@
+import { GlobalStyles } from '../styles/global-styles';
+
 const IndexPage = () => (
-  <div>
+  <>
     <h1>Hello World!</h1>
-  </div>
+    <GlobalStyles />
+  </>
 );
 
 export default IndexPage;
